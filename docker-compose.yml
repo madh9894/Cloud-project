@@ -3,7 +3,7 @@ version: '3.8'
 services:
   en2ar-translation-service:
     build: .
-    container_name: en2ar_translation_service
+    container_name: en2ar
     ports:
-      - "8001:8000"
+      - "5001:5001"  
     restart: always
