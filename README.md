@@ -1,4 +1,4 @@
-# Microservices Project - Text summarizer
+# Microservices Project - EN2AR
 
 ## Introduction
 This project demonstrates the implementation of a microservices-based architecture. It includes services that communicate through defined interfaces, ensuring modularity and scalability. The application is containerized using Docker for ease of deployment.
