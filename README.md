@@ -51,8 +51,13 @@ EN2AR-master/
 ```
 
 ## Usage
-- Access the application through the service endpoint (e.g., `http://localhost:<port>`).
-- Modify the services or extend functionality by editing the respective modules in the project.
+Once the service is running, you can access the EN2AR API through the exposed endpoint. Typically, the translation service will be hosted on http://localhost:<port>/translate/en2ar, where you can send POST requests with text that needs to be translated.
+
+For example:
+
+POST to /translate/en2ar to submit English text for translation into Arabic.
+The system will respond with the translated text in Arabic.
+The system may also expose additional endpoints such as /status/{id} for checking the status of translation requests or other service-related operations.
 
 ## Contributing
 Contributions are welcome! To contribute:
@@ -65,4 +70,12 @@ Contributions are welcome! To contribute:
 
 ## Contact
 For questions or suggestions, feel free to reach out.
+
+## Apout
+This project aims to implement an EN2AR translation microservice, built using Python and containerized with Docker. The goal is to provide an efficient and scalable way to translate English text into Arabic. The service can be integrated into larger systems requiring text translation functionality, such as a multilingual application or a content management system.
+
+## Resources
+Docker: Ensure you have Docker and Docker Compose set up for easy deployment of the microservices.
+FastAPI: Learn more about FastAPI by visiting the official documentation.
+Hugging Face: Learn about the NLP models provided by Hugging Face at huggingface.co.
 
